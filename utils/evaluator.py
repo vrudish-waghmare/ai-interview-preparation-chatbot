@@ -1,5 +1,5 @@
 import json
-from utils.llm import query_ollama
+from utils.llm import query_llm
 
 def safe_parse_json(text):
     try:
@@ -36,7 +36,7 @@ Rules:
 - All scores must be integers
 """
 
-    result = query_ollama(prompt)
+    result = query_lllm(prompt)
 
     if not result:
         return default_response("LLM failed")
