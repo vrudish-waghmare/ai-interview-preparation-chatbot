@@ -1,0 +1,8 @@
+streamlit
+streamlit-cookies-controller
+streamlit-option-menu
+requests
+Werkzeug
+matplotlib
+numpy
+reportlab
