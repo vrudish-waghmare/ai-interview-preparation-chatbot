@@ -1,4 +1,4 @@
-from utils.llm import query_ollama
+from utils.llm import query_llm
 def generate_followup(question, answer, feedback, role, difficulty, skills, profile):
     prompt = f"""
 You are a senior interviewer.
@@ -27,4 +27,4 @@ Ask ONE smart follow-up:
 
 Only return question.
 """
-    return query_ollama(prompt)
+    return query_llm(prompt)
