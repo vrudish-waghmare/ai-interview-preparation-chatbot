@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc 
+.env
+data/users.json
+data/session.json 
+venv/
+.venv/
+.streamlit/secrets.toml
+.vscode 
+.DS_Store 
