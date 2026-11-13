@@ -36,7 +36,7 @@ Rules:
 - All scores must be integers
 """
 
-    result = query_lllm(prompt)
+    result = query_llm(prompt)
 
     if not result:
         return default_response("LLM failed")
